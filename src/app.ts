@@ -1,4 +1,5 @@
 import KYC from './KYC';
+import { constants } from './utils/constants';
 const kyc = new KYC();
 // Midlle Name is optional you can skip
-kyc.checkYourKYC('2001-01-01', 'James', 'Robert', '94977000', 'NSW', '2020-01-01', 'middlename');
+kyc.checkYourKYC(constants.DUMMY_KYC_API_BODY);
